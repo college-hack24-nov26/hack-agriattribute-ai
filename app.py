@@ -608,7 +608,7 @@ def inject_responsive_typography():
             line-height: 1.70 !important;
             color: #0f172a !important;
         }
-        p, span, label, .stMarkdown, .stText {
+        [data-testid='stMarkdownContainer'] > p, [data-testid='stMarkdownContainer'] > ul li, label, .stText {
             font-size: 1.08rem !important;
             color: #0f172a !important;
         }
@@ -665,7 +665,7 @@ def inject_responsive_typography():
                 font-size: 18.5px !important;
                 line-height: 1.76 !important;
             }
-            p, span, label, .stMarkdown, .stText {
+            [data-testid='stMarkdownContainer'] > p, [data-testid='stMarkdownContainer'] > ul li, label, .stText {
                 font-size: 1.12rem !important;
                 color: #0f172a !important;
             }

@@ -639,13 +639,15 @@ def render_shc_donut_html(cfg: dict) -> str:
         lbl = leg["label"]
         p = leg["pct"]
         cnt = leg["count"]
+        # one row per class: dot · label · share · number of soil samples. Rows stack, so nothing can overlap
+        # however narrow the card is.
         legend_parts.append(
-            f"<div style='flex:1; min-width:0; text-align:center; padding:0 2px;'>"
-            f"<div style='display:flex; align-items:center; justify-content:center; gap:4px; font-size:0.74rem; font-weight:700; color:#334155; white-space:nowrap;'>"
-            f"<span style='display:inline-block; width:8px; height:8px; border-radius:50%; background:{c}; flex-shrink:0;'></span>"
-            f"<span>{lbl} {p}%</span>"
-            f"</div>"
-            f"<div style='font-size:0.67rem; color:#64748b; font-weight:600; margin-top:2px; white-space:nowrap;'>{cnt}</div>"
+            f"<div style='display:grid; grid-template-columns:10px 1fr auto; align-items:center; column-gap:6px; "
+            f"padding:3px 2px; font-size:0.78rem; line-height:1.25; color:#334155; text-align:left;'>"
+            f"<i style='display:block; width:9px; height:9px; border-radius:50%; background:{c};'></i>"
+            f"<b style='font-weight:700; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;'>{lbl}</b>"
+            f"<b style='font-weight:800; color:#0f172a;'>{p}%</b>"
+            f"<i style='grid-column:2 / 4; font-style:normal; font-size:0.68rem; color:#64748b;'>{cnt} samples</i>"
             f"</div>"
         )
     legend_items_html = "".join(legend_parts)
@@ -669,7 +671,7 @@ def render_shc_donut_html(cfg: dict) -> str:
         f"<div style='width:82px; height:82px; border-radius:50%; background:#ffffff; display:flex; justify-content:center; align-items:center; box-shadow:inset 0 1px 3px rgba(0,0,0,0.06);'>"
         f"<span style='font-size:1.6rem; font-weight:900; color:#0f172a; line-height:1;'>{sym}</span>"
         f"</div></div></div>"
-        f"<div style='border-top:1px solid #f1f5f9; padding-top:8px; margin-bottom:10px; display:flex; justify-content:space-around; align-items:flex-start;'>{legend_items_html}</div>"
+        f"<div style='border-top:1px solid #f1f5f9; padding-top:6px; margin-bottom:10px;'>{legend_items_html}</div>"
         f"<div style='background:{s_bg}; border:1px solid {s_border}; border-radius:8px; padding:6px 8px; text-align:center;'>"
         f"<div style='font-size:1.1rem; font-weight:900; color:#0f172a;'>{v} <span style='font-size:0.72rem; font-weight:600; color:#64748b;'>{u}</span></div>"
         f"<div style='font-size:0.72rem; font-weight:800; color:{s_col}; margin-top:2px;'>Tested: {st_val} <span style='font-weight:500; color:#64748b;'>(Target: {bm})</span></div>"
