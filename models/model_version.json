@@ -1,0 +1,20 @@
+{
+  "model_version": "yield-rf-v2.1",
+  "trained_at": "2026-09-09T15:34:16.326411Z",
+  "dataset_version": "v2.1-synthetic",
+  "feature_version": "v2.1-zero-leakage",
+  "algorithm": "Random Forest Regressor",
+  "validation_method": "Temporal Holdout (2021-2024 Train / 2025 Test) + GroupKFold",
+  "training_sources": [
+    "Synthetic field-trial simulation (pipeline/offline_training_pipeline.py, fixed seed)",
+    "Crop/region parameters informed by public ICAR, DAC&FW Soil Health Card and IMD references (reference ranges only; no raw trial data)"
+  ],
+  "metrics_summary": {
+    "r2": 0.9944,
+    "rmse": 8.18,
+    "mae": 3.99,
+    "uncertainty_mae": 3.99,
+    "grouped_cv_5fold_mean_r2": 0.9929,
+    "grouped_cv_5fold_std_r2": 0.0009
+  }
+}

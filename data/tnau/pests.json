@@ -1,0 +1,46 @@
+[
+  {
+    "pest_id": "P_COT_PBW",
+    "crop": "Cotton",
+    "pest_name": "Pink Bollworm",
+    "scientific_name": "Pectinophora gossypiella (Saunders)",
+    "damage_symptoms": "Rosetted flowers with petals twisted and tied with silk; young bolls shed; larvae burrow inside bolls feeding on lint and immature seeds, causing stained lint.",
+    "etl": "8 moths/trap/night for 3 consecutive days or 10% damaged green bolls/flowers.",
+    "biological_ipm": "Install gossyplure pheromone traps @ 12/ha; release Trichogramma bactrae @ 1.5 lakh eggs/ha at weekly intervals; spray Neem oil @ 5 ml/L.",
+    "chemical_control": "Emamectin benzoate 5% SG @ 0.4 g/L or Chlorantraniliprole 18.5% SC @ 0.3 ml/L (CIBRC approved; PHI: 15 days).",
+    "source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_insect_pest_fibres_cotton.html"
+  },
+  {
+    "pest_id": "P_SOY_GIRDLE",
+    "crop": "Soybean",
+    "pest_name": "Girdle Beetle",
+    "scientific_name": "Obereopsis brevis (Gahan)",
+    "damage_symptoms": "Female makes two distinct ring-like girdles on stem/petiole and lays egg; plant above the upper girdle withers and drops; dry twigs visible across field.",
+    "etl": "1 damaged plant per meter row length.",
+    "biological_ipm": "Hand collection and destruction of girdled plant parts during initial 30 days; foliar spray of Beauveria bassiana @ 5 g/L.",
+    "chemical_control": "Thiamethoxam 12.6% + Lambda-cyhalothrin 9.5% ZC @ 0.3 ml/L (CIBRC approved; PHI: 21 days).",
+    "source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_insect_pest_oilseeds_soybean.html"
+  },
+  {
+    "pest_id": "P_ONI_THRIPS",
+    "crop": "Onion",
+    "pest_name": "Onion Thrips",
+    "scientific_name": "Thrips tabaci Lindeman",
+    "damage_symptoms": "Nymphs and adults lacerate leaf tissue and suck sap; leaves show silvery patches, white streaks, and curl inwards; bulb development severely stunted.",
+    "etl": "30 thrips per plant at vegetative stage.",
+    "biological_ipm": "Install blue sticky traps @ 20/ha; spray 5% NSKE or Verticillium lecanii @ 5 g/L; avoid excess nitrogen.",
+    "chemical_control": "Fipronil 5% SC @ 1.5 ml/L or Spinosad 45% SC @ 0.3 ml/L (CIBRC approved; PHI: 10 days).",
+    "source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_insect_pest_horti_vegetables_onion.html"
+  },
+  {
+    "pest_id": "P_RIC_STEMBORER",
+    "crop": "Rice (Paddy)",
+    "pest_name": "Yellow Stem Borer",
+    "scientific_name": "Scirpophaga incertulas (Walker)",
+    "damage_symptoms": "Larva bores into central shoot causing dead heart in tillering phase, and white earhead (empty chaffy panicles) during flowering phase.",
+    "etl": "2 egg masses/sq.m or 10% dead hearts/white earheads.",
+    "biological_ipm": "Install pheromone traps @ 12/ha; release Trichogramma japonicum @ 1.0 lakh/ha weekly; clip seedling leaf tips before transplanting.",
+    "chemical_control": "Cartap hydrochloride 50% SP @ 2.0 g/L or Chlorantraniliprole 0.4% GR @ 10 kg/ha (CIBRC approved; PHI: 21 days).",
+    "source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_insect_pest_cereals_rice.html"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "disease_id": "D_SOY_RUST",
+    "crop": "Soybean",
+    "disease_name": "Soybean Rust",
+    "pathogen": "Phakopsora pachyrhizi Syd. & P. Syd.",
+    "symptoms": "Small, water-soaked lesions on lower leaves turning into brown or reddish-brown polygonal pustules primarily on abaxial leaf surface; rapid premature defoliation under high humidity.",
+    "favorable_conditions": "Temperatures 18-28°C with leaf wetness > 6 hours and relative humidity > 80%.",
+    "biological_control": "Foliar spray of Pseudomonas fluorescens @ 5 g/L or Trichoderma viride @ 5 g/L at first disease onset; spray 5% Neem Seed Kernel Extract (NSKE).",
+    "chemical_control": "Hexaconazole 5% EC @ 2.0 ml/L or Propiconazole 25% EC @ 1.0 ml/L (CIBRC statutory dosage; PHI: 30 days).",
+    "source_authority": "TNAU Agritech Portal — Crop Protection (Crop Diseases: Oilseeds)",
+    "tnau_source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_diseases_oilseeds_soybean.html"
+  },
+  {
+    "disease_id": "D_COT_BLIGHT",
+    "crop": "Cotton",
+    "disease_name": "Bacterial Leaf Blight (Angular Leaf Spot)",
+    "pathogen": "Xanthomonas citri pv. malvacearum",
+    "symptoms": "Angular, water-soaked lesions bounded by veinlets on leaves, progressing to black arm on petioles and water-soaked round spots on developing bolls.",
+    "favorable_conditions": "Warm, humid weather with temperatures 28-35°C and continuous rainfall or overhead sprinkler irrigation.",
+    "biological_control": "Seed treatment with Pseudomonas fluorescens @ 10 g/kg seed; foliar spray of P. fluorescens @ 2 g/L at 30, 60 and 90 DAS.",
+    "chemical_control": "Copper Oxychloride 50% WP @ 2.5 g/L + Streptocycline @ 0.1 g/L (CIBRC approved combination; PHI: 15 days).",
+    "source_authority": "TNAU Agritech Portal — Crop Protection (Crop Diseases: Fibre Crops)",
+    "tnau_source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_diseases_fibres_cotton.html"
+  },
+  {
+    "disease_id": "D_ONI_BLOTCH",
+    "crop": "Onion",
+    "disease_name": "Purple Blotch",
+    "pathogen": "Alternaria porri (Ellis) Cif.",
+    "symptoms": "Small, sunken whitish flecks with purple centers enlarging into concentric rings; leaves break at lesion points, causing bulb yield and quality loss.",
+    "favorable_conditions": "Warm, moist weather (25-30°C) with prolonged relative humidity > 85% and frequent rainfall or heavy dew.",
+    "biological_control": "Foliar application of Trichoderma harzianum @ 5 g/L or Bacillus subtilis @ 5 g/L; crop rotation with non-allium crops.",
+    "chemical_control": "Mancozeb 75% WP @ 2.5 g/L or Difenoconazole 25% EC @ 1.0 ml/L with sticker (CIBRC statutory dosage; PHI: 15 days).",
+    "source_authority": "TNAU Agritech Portal — Crop Protection (Horticultural Diseases: Vegetables)",
+    "tnau_source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_diseases_horti_vegetables_onion.html"
+  },
+  {
+    "disease_id": "D_RIC_BLAST",
+    "crop": "Rice (Paddy)",
+    "disease_name": "Rice Blast",
+    "pathogen": "Magnaporthe oryzae (Pyricularia grisea)",
+    "symptoms": "Spindle-shaped (eye-shaped) lesions with ash-colored centers and dark brown borders on leaves; neck rot causes panicle to droop and break with chaffy grains.",
+    "favorable_conditions": "Low night temperatures (20-24°C), high relative humidity (>90%), morning dew, and excessive nitrogenous fertilizer application.",
+    "biological_control": "Seed treatment with Pseudomonas fluorescens @ 10 g/kg followed by seedling dip @ 2.5 kg/ha in 100 L water; foliar spray @ 2 g/L at boot stage.",
+    "chemical_control": "Tricyclazole 75% WP @ 0.6 g/L or Isoprothiolane 40% EC @ 1.5 ml/L (CIBRC statutory recommendation; PHI: 30 days).",
+    "source_authority": "TNAU Agritech Portal — Crop Protection (Crop Diseases: Cereals)",
+    "tnau_source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop%20diseases_cereals_rice_biomarker_main.html"
+  },
+  {
+    "disease_id": "D_MAI_BLIGHT",
+    "crop": "Maize",
+    "disease_name": "Turcicum Leaf Blight",
+    "pathogen": "Exserohilum turcicum (Pass.) Leonard & Suggs",
+    "symptoms": "Long, elliptical, grayish-green to tan lesions up to 15 cm long on leaves, causing extensive blighting of canopy and poor grain filling.",
+    "favorable_conditions": "Moderate temperatures (20-27°C) with prolonged cloudiness and high humidity during vegetative growth.",
+    "biological_control": "Seed treatment with Trichoderma viride @ 4 g/kg seed; foliar spray of Trichoderma @ 5 g/L upon first lower leaf spot appearance.",
+    "chemical_control": "Mancozeb 75% WP @ 2.5 g/L or Azoxystrobin 18.2% + Difenoconazole 11.4% SC @ 1.0 ml/L (CIBRC approved; PHI: 21 days).",
+    "source_authority": "TNAU Agritech Portal — Crop Protection (Crop Diseases: Cereals)",
+    "tnau_source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_diseases_cereals_maize.html"
+  },
+  {
+    "disease_id": "D_GRO_TIKKA",
+    "crop": "Groundnut",
+    "disease_name": "Tikka Leaf Spot (Cercospora Leaf Spot)",
+    "pathogen": "Cercospora arachidicola (Early) & Phaeoisariopsis personata (Late)",
+    "symptoms": "Circular to irregular dark brown necrotic spots with prominent yellow halos on upper surface; late leaf spot lesions are darker without yellow halos; leads to complete defoliation.",
+    "favorable_conditions": "Prolonged warm and wet conditions (25-30°C) with high humidity (>80%) and rain splashing.",
+    "biological_control": "Seed treatment with Trichoderma viride @ 4 g/kg seed; foliar spray of 5% Neem oil emulsion or Pseudomonas fluorescens @ 5 g/L at 40 and 60 DAS.",
+    "chemical_control": "Carbendazim 12% + Mancozeb 63% WP @ 2.0 g/L or Tebuconazole 25.9% EC @ 1.0 ml/L (CIBRC statutory dosage; PHI: 21 days).",
+    "source_authority": "TNAU Agritech Portal — Crop Protection (Crop Diseases: Oilseeds)",
+    "tnau_source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_diseases_oilseeds_groundnut.html"
+  },
+  {
+    "disease_id": "D_WHT_RUST",
+    "crop": "Wheat",
+    "disease_name": "Stripe Rust (Yellow Rust)",
+    "pathogen": "Puccinia striiformis f. sp. tritici",
+    "symptoms": "Yellow-orange powdery pustules (uredinia) arranged in distinct parallel stripes along leaf veins; infected leaves dry up and test weight drops drastically.",
+    "favorable_conditions": "Cool, humid weather (10-18°C) with intermittent winter rains or heavy morning fog.",
+    "biological_control": "Grow resistant varieties (e.g. HD-2967, PBW-550); balanced nitrogen fertilization avoiding excessive urea.",
+    "chemical_control": "Propiconazole 25% EC @ 1.0 ml/L or Tebuconazole 25% WG @ 1.0 g/L (CIBRC statutory dosage; PHI: 30 days).",
+    "source_authority": "TNAU Agritech Portal — Crop Protection (Crop Diseases: Cereals)",
+    "tnau_source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_diseases_cereals_wheat.html"
+  },
+  {
+    "disease_id": "D_SUG_REDROT",
+    "crop": "Sugarcane",
+    "disease_name": "Red Rot",
+    "pathogen": "Colletotrichum falcatum Went",
+    "symptoms": "Third or fourth leaf from top shows yellowing and withering; internal split cane reveals blood-red discolored pith with diagnostic transverse white patches and alcohol odor.",
+    "favorable_conditions": "Waterlogged soil conditions, temperatures 25-32°C, and continuous cultivation of susceptible cultivars.",
+    "biological_control": "Sett treatment with Trichoderma viride @ 5 g/L water for 15 minutes before planting; soil application of Trichoderma with enriched FYM @ 2.5 kg/ha.",
+    "chemical_control": "Sett dipping in Carbendazim 50% WP @ 1.0 g/L for 15 minutes before planting; remove and burn affected clumps.",
+    "source_authority": "TNAU Agritech Portal — Crop Protection (Crop Diseases: Sugar Crops)",
+    "tnau_source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_diseases_sugarcrops_sugarcane.html"
+  },
+  {
+    "disease_id": "D_TOM_EARLYBLIGHT",
+    "crop": "Tomato",
+    "disease_name": "Early Blight",
+    "pathogen": "Alternaria solani (Ellis & G. Martin) Sorauer",
+    "symptoms": "Dark brown to black target-board circular spots with concentric rings on older leaves; yellowing halos around lesions; dark sunken lesions at stem base and calyx end.",
+    "favorable_conditions": "Warm, humid weather (24-29°C) with alternating wet and dry periods.",
+    "biological_control": "Foliar application of Pseudomonas fluorescens @ 5 g/L or Trichoderma asperellum @ 5 g/L at 15-day intervals; mulching to prevent soil splashing.",
+    "chemical_control": "Mancozeb 75% WP @ 2.5 g/L or Chlorothalonil 75% WP @ 2.0 g/L (CIBRC approved; PHI: 7 days).",
+    "source_authority": "TNAU Agritech Portal — Crop Protection (Horticultural Diseases: Vegetables)",
+    "tnau_source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_diseases_horti_vegetables_tomato.html"
+  }
+]

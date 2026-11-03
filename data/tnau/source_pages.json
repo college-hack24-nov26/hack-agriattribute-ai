@@ -1,0 +1,27 @@
+[
+  {
+    "topic": "TNAU Agriculture Main Portal",
+    "url": "https://agritech.tnau.ac.in/agriculture/agri_index.html",
+    "authority": "Tamil Nadu Agricultural University (Coimbatore)"
+  },
+  {
+    "topic": "TNAU Crop Protection Hub",
+    "url": "https://agritech.tnau.ac.in/crop_protection/crop_prot.html",
+    "authority": "Department of Agricultural Entomology & Plant Pathology, TNAU"
+  },
+  {
+    "topic": "TNAU Nutrient Management & Soil Health",
+    "url": "https://agritech.tnau.ac.in/agriculture/agri_nutrientmgt.html",
+    "authority": "Department of Soil Science and Agricultural Chemistry, TNAU"
+  },
+  {
+    "topic": "TNAU Abiotic Stress Management",
+    "url": "https://agritech.tnau.ac.in/agriculture/agri_drought_management.html",
+    "authority": "Directorate of Crop Management, TNAU"
+  },
+  {
+    "topic": "TNAU Biological Control & Bio-agents",
+    "url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_biological_control.html",
+    "authority": "TNAU Bio-Control Laboratory"
+  }
+]

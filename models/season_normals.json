@@ -1,0 +1,101 @@
+{
+  "source": "Medians of data/field_trials.csv (simulated) per crop",
+  "crops": {
+    "Chickpea (Gram / Chana)": {
+      "rainfall_mm": 176.5,
+      "gdd": 1833.0,
+      "ndvi": 0.683,
+      "temp_c_p05": 24.1,
+      "temp_c_p95": 33.0,
+      "trial_dose": 1.5
+    },
+    "Cotton": {
+      "rainfall_mm": 653.4,
+      "gdd": 1794.0,
+      "ndvi": 0.68,
+      "temp_c_p05": 23.1,
+      "temp_c_p95": 33.1,
+      "trial_dose": 1.5
+    },
+    "Groundnut (Peanut)": {
+      "rainfall_mm": 705.7,
+      "gdd": 1849.2,
+      "ndvi": 0.677,
+      "temp_c_p05": 25.0,
+      "temp_c_p95": 32.6,
+      "trial_dose": 1.5
+    },
+    "Maize": {
+      "rainfall_mm": 719.3,
+      "gdd": 1872.0,
+      "ndvi": 0.694,
+      "temp_c_p05": 23.7,
+      "temp_c_p95": 33.3,
+      "trial_dose": 2.0
+    },
+    "Mustard / Rapeseed": {
+      "rainfall_mm": 162.3,
+      "gdd": 1826.5,
+      "ndvi": 0.68,
+      "temp_c_p05": 24.2,
+      "temp_c_p95": 32.9,
+      "trial_dose": 1.5
+    },
+    "Onion": {
+      "rainfall_mm": 174.7,
+      "gdd": 1859.0,
+      "ndvi": 0.681,
+      "temp_c_p05": 24.3,
+      "temp_c_p95": 33.2,
+      "trial_dose": 2.0
+    },
+    "Rice (Paddy)": {
+      "rainfall_mm": 677.2,
+      "gdd": 1833.0,
+      "ndvi": 0.696,
+      "temp_c_p05": 23.8,
+      "temp_c_p95": 33.6,
+      "trial_dose": 2.0
+    },
+    "Soybean": {
+      "rainfall_mm": 672.2,
+      "gdd": 1865.5,
+      "ndvi": 0.685,
+      "temp_c_p05": 24.7,
+      "temp_c_p95": 34.6,
+      "trial_dose": 2.0
+    },
+    "Sugarcane": {
+      "rainfall_mm": 159.1,
+      "gdd": 1885.0,
+      "ndvi": 0.659,
+      "temp_c_p05": 24.2,
+      "temp_c_p95": 34.1,
+      "trial_dose": 3.0
+    },
+    "Tomato": {
+      "rainfall_mm": 162.0,
+      "gdd": 1898.0,
+      "ndvi": 0.696,
+      "temp_c_p05": 23.9,
+      "temp_c_p95": 33.9,
+      "trial_dose": 2.5
+    },
+    "Tur / Pigeon Pea (Arhar)": {
+      "rainfall_mm": 675.6,
+      "gdd": 1833.0,
+      "ndvi": 0.678,
+      "temp_c_p05": 24.7,
+      "temp_c_p95": 33.5,
+      "trial_dose": 2.0
+    },
+    "Wheat": {
+      "rainfall_mm": 161.9,
+      "gdd": 1816.8,
+      "ndvi": 0.67,
+      "temp_c_p05": 23.2,
+      "temp_c_p95": 32.2,
+      "trial_dose": 1.5
+    }
+  }
+}

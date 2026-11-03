@@ -1,0 +1,192 @@
+{
+  "data": "SIMULATED (pipeline/offline_training_pipeline.py, seed 42). Not real field trials.",
+  "split": "train 2021-2024, test 2025 (held-out season)",
+  "pooled": {
+    "r2": 0.9944,
+    "mae_q_acre": 3.99,
+    "note": "Pooled across crops; dominated by the gap between crop yield scales. Use the per-crop numbers."
+  },
+  "within_crop_r2_range": [
+    -0.266,
+    0.688
+  ],
+  "per_crop": {
+    "Chickpea (Gram / Chana)": {
+      "n_test": 30,
+      "mean_yield_q_acre": 7.28,
+      "r2": 0.26,
+      "mae_q_acre": 0.47,
+      "rmse_q_acre": 0.58,
+      "mae_pct_of_mean": 6.5
+    },
+    "Cotton": {
+      "n_test": 6,
+      "mean_yield_q_acre": 11.58,
+      "r2": 0.071,
+      "mae_q_acre": 1.51,
+      "rmse_q_acre": 1.63,
+      "mae_pct_of_mean": 13.1
+    },
+    "Groundnut (Peanut)": {
+      "n_test": 14,
+      "mean_yield_q_acre": 10.87,
+      "r2": 0.291,
+      "mae_q_acre": 0.69,
+      "rmse_q_acre": 0.91,
+      "mae_pct_of_mean": 6.4
+    },
+    "Maize": {
+      "n_test": 14,
+      "mean_yield_q_acre": 25.38,
+      "r2": 0.133,
+      "mae_q_acre": 1.65,
+      "rmse_q_acre": 2.0,
+      "mae_pct_of_mean": 6.5
+    },
+    "Mustard / Rapeseed": {
+      "n_test": 34,
+      "mean_yield_q_acre": 7.13,
+      "r2": 0.283,
+      "mae_q_acre": 0.51,
+      "rmse_q_acre": 0.63,
+      "mae_pct_of_mean": 7.2
+    },
+    "Onion": {
+      "n_test": 16,
+      "mean_yield_q_acre": 123.22,
+      "r2": 0.359,
+      "mae_q_acre": 7.78,
+      "rmse_q_acre": 9.31,
+      "mae_pct_of_mean": 6.3
+    },
+    "Rice (Paddy)": {
+      "n_test": 10,
+      "mean_yield_q_acre": 22.54,
+      "r2": 0.389,
+      "mae_q_acre": 0.92,
+      "rmse_q_acre": 1.09,
+      "mae_pct_of_mean": 4.1
+    },
+    "Soybean": {
+      "n_test": 12,
+      "mean_yield_q_acre": 10.79,
+      "r2": -0.266,
+      "mae_q_acre": 0.47,
+      "rmse_q_acre": 0.59,
+      "mae_pct_of_mean": 4.4
+    },
+    "Sugarcane": {
+      "n_test": 28,
+      "mean_yield_q_acre": 328.87,
+      "r2": 0.576,
+      "mae_q_acre": 16.12,
+      "rmse_q_acre": 19.24,
+      "mae_pct_of_mean": 4.9
+    },
+    "Tomato": {
+      "n_test": 22,
+      "mean_yield_q_acre": 157.29,
+      "r2": 0.18,
+      "mae_q_acre": 10.14,
+      "rmse_q_acre": 12.12,
+      "mae_pct_of_mean": 6.4
+    },
+    "Tur / Pigeon Pea (Arhar)": {
+      "n_test": 30,
+      "mean_yield_q_acre": 8.02,
+      "r2": 0.152,
+      "mae_q_acre": 0.36,
+      "rmse_q_acre": 0.45,
+      "mae_pct_of_mean": 4.5
+    },
+    "Wheat": {
+      "n_test": 10,
+      "mean_yield_q_acre": 16.98,
+      "r2": 0.688,
+      "mae_q_acre": 0.46,
+      "rmse_q_acre": 0.56,
+      "mae_pct_of_mean": 2.7
+    }
+  },
+  "treatment_effect": {
+    "overall": {
+      "n_pairs": 113,
+      "mean_observed_lift_q_acre": 7.531,
+      "mean_model_lift_q_acre": 7.504,
+      "lift_mae_q_acre": 3.008,
+      "lift_correlation": 0.898
+    },
+    "Chickpea (Gram / Chana)": {
+      "n_pairs": 15,
+      "mean_observed_lift_q_acre": 0.683,
+      "mean_model_lift_q_acre": 0.793,
+      "lift_mae_q_acre": 0.405
+    },
+    "Cotton": {
+      "n_pairs": 3,
+      "mean_observed_lift_q_acre": 1.333,
+      "mean_model_lift_q_acre": 0.947,
+      "lift_mae_q_acre": 1.204
+    },
+    "Groundnut (Peanut)": {
+      "n_pairs": 7,
+      "mean_observed_lift_q_acre": 0.363,
+      "mean_model_lift_q_acre": 0.931,
+      "lift_mae_q_acre": 0.611
+    },
+    "Maize": {
+      "n_pairs": 7,
+      "mean_observed_lift_q_acre": 1.783,
+      "mean_model_lift_q_acre": 1.846,
+      "lift_mae_q_acre": 0.353
+    },
+    "Mustard / Rapeseed": {
+      "n_pairs": 17,
+      "mean_observed_lift_q_acre": 0.743,
+      "mean_model_lift_q_acre": 0.731,
+      "lift_mae_q_acre": 0.316
+    },
+    "Onion": {
+      "n_pairs": 8,
+      "mean_observed_lift_q_acre": 11.944,
+      "mean_model_lift_q_acre": 15.126,
+      "lift_mae_q_acre": 7.959
+    },
+    "Rice (Paddy)": {
+      "n_pairs": 5,
+      "mean_observed_lift_q_acre": 2.272,
+      "mean_model_lift_q_acre": 2.239,
+      "lift_mae_q_acre": 1.117
+    },
+    "Soybean": {
+      "n_pairs": 6,
+      "mean_observed_lift_q_acre": 0.557,
+      "mean_model_lift_q_acre": 0.947,
+      "lift_mae_q_acre": 0.499
+    },
+    "Sugarcane": {
+      "n_pairs": 14,
+      "mean_observed_lift_q_acre": 37.904,
+      "mean_model_lift_q_acre": 35.496,
+      "lift_mae_q_acre": 10.511
+    },
+    "Tomato": {
+      "n_pairs": 11,
+      "mean_observed_lift_q_acre": 13.785,
+      "mean_model_lift_q_acre": 13.844,
+      "lift_mae_q_acre": 8.294
+    },
+    "Tur / Pigeon Pea (Arhar)": {
+      "n_pairs": 15,
+      "mean_observed_lift_q_acre": 0.554,
+      "mean_model_lift_q_acre": 0.455,
+      "lift_mae_q_acre": 0.326
+    },
+    "Wheat": {
+      "n_pairs": 5,
+      "mean_observed_lift_q_acre": 1.648,
+      "mean_model_lift_q_acre": 1.485,
+      "lift_mae_q_acre": 0.506
+    }
+  }
+}

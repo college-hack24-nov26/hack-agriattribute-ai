@@ -1,0 +1,389 @@
+[
+  {
+    "crop_name": "Soybean",
+    "botanical_name": "Glycine max (L.) Merr.",
+    "family": "Fabaceae",
+    "category": "oilseeds",
+    "tnau_page": "https://agritech.tnau.ac.in/agriculture/agri_cropproduction_oilseeds_soybean.html",
+    "duration_days": "95-105 days",
+    "optimal_temp_c": "25-32°C",
+    "water_requirement_mm": "450-650 mm",
+    "critical_stages": [
+      "Flowering initiation (R1)",
+      "Pod development (R3-R4)",
+      "Seed fill (R5)"
+    ],
+    "npk_recommendation_kgha": {
+      "N": 20,
+      "P": 60,
+      "K": 40,
+      "S": 20
+    },
+    "biostimulant_window": "Apply at R1 flowering stage to prevent flower shedding under heat stress >32°C.",
+    "common_diseases": [
+      "Soybean Rust",
+      "Charcoal Rot",
+      "Yellow Mosaic Virus"
+    ],
+    "common_pests": [
+      "Girdle Beetle",
+      "Stem Fly",
+      "Tobacco Caterpillar"
+    ],
+    "tnau_yield_potential_q_acre": "12.0 - 16.0 q/acre"
+  },
+  {
+    "crop_name": "Cotton",
+    "botanical_name": "Gossypium hirsutum L.",
+    "family": "Malvaceae",
+    "category": "fibre_crops",
+    "tnau_page": "https://agritech.tnau.ac.in/agriculture/agri_cropproduction_fibres_cotton.html",
+    "duration_days": "150-180 days",
+    "optimal_temp_c": "26-35°C",
+    "water_requirement_mm": "700-1100 mm",
+    "critical_stages": [
+      "Square formation",
+      "Peak flowering",
+      "Boll development"
+    ],
+    "npk_recommendation_kgha": {
+      "N": 120,
+      "P": 60,
+      "K": 60
+    },
+    "biostimulant_window": "Apply during peak square retention and early boll formation to mitigate moisture stress.",
+    "common_diseases": [
+      "Bacterial Leaf Blight",
+      "Alternaria Leaf Spot",
+      "Grey Mildew"
+    ],
+    "common_pests": [
+      "Pink Bollworm",
+      "American Bollworm",
+      "Whitefly",
+      "Thrips"
+    ],
+    "tnau_yield_potential_q_acre": "10.0 - 15.0 q/acre"
+  },
+  {
+    "crop_name": "Onion",
+    "botanical_name": "Allium cepa L.",
+    "family": "Amaryllidaceae",
+    "category": "vegetables",
+    "tnau_page": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_onion.html",
+    "duration_days": "110-130 days",
+    "optimal_temp_c": "20-30°C",
+    "water_requirement_mm": "350-550 mm",
+    "critical_stages": [
+      "Transplanting establishment",
+      "Vegetative neck extension",
+      "Bulb enlargement"
+    ],
+    "npk_recommendation_kgha": {
+      "N": 60,
+      "P": 50,
+      "K": 60,
+      "S": 30
+    },
+    "biostimulant_window": "Foliar amino acid spray at 45 & 65 DAT to improve bulb caliber and reduce purple blotch susceptibility.",
+    "common_diseases": [
+      "Purple Blotch",
+      "Stemphylium Blight",
+      "Basal Rot"
+    ],
+    "common_pests": [
+      "Onion Thrips",
+      "Maggots"
+    ],
+    "tnau_yield_potential_q_acre": "100.0 - 140.0 q/acre (bulbs)"
+  },
+  {
+    "crop_name": "Rice (Paddy)",
+    "botanical_name": "Oryza sativa L.",
+    "family": "Poaceae",
+    "category": "cereals",
+    "tnau_page": "https://agritech.tnau.ac.in/agriculture/agri_cropproduction_cereals%20index%20new_rice.html",
+    "duration_days": "115-140 days",
+    "optimal_temp_c": "22-34°C",
+    "water_requirement_mm": "1100-1400 mm",
+    "critical_stages": [
+      "Active tillering",
+      "Panicle initiation",
+      "Booting",
+      "Milking"
+    ],
+    "npk_recommendation_kgha": {
+      "N": 120,
+      "P": 40,
+      "K": 40,
+      "Zn": 25
+    },
+    "biostimulant_window": "Apply at panicle initiation to boost spikelet fertility and bolder grain filling.",
+    "common_diseases": [
+      "Rice Blast",
+      "Sheath Blight",
+      "Bacterial Leaf Blight"
+    ],
+    "common_pests": [
+      "Yellow Stem Borer",
+      "Brown Plant Hopper",
+      "Leaf Folder"
+    ],
+    "tnau_yield_potential_q_acre": "22.0 - 30.0 q/acre"
+  },
+  {
+    "crop_name": "Wheat",
+    "botanical_name": "Triticum aestivum L.",
+    "family": "Poaceae",
+    "category": "cereals",
+    "tnau_page": "https://agritech.tnau.ac.in/agriculture/agri_cropproduction_cereals%20index%20new_wheat.html",
+    "duration_days": "120-135 days",
+    "optimal_temp_c": "15-25°C",
+    "water_requirement_mm": "400-500 mm",
+    "critical_stages": [
+      "Crown root initiation (CRI)",
+      "Jointing",
+      "Booting",
+      "Grain fill"
+    ],
+    "npk_recommendation_kgha": {
+      "N": 120,
+      "P": 60,
+      "K": 40
+    },
+    "biostimulant_window": "Terminal heat spray at late booting/anthesis to preserve test weight when temp >30°C.",
+    "common_diseases": [
+      "Yellow/Stripe Rust",
+      "Brown Rust",
+      "Powdery Mildew"
+    ],
+    "common_pests": [
+      "Aphids",
+      "Termites"
+    ],
+    "tnau_yield_potential_q_acre": "20.0 - 26.0 q/acre"
+  },
+  {
+    "crop_name": "Sugarcane",
+    "botanical_name": "Saccharum officinarum L.",
+    "family": "Poaceae",
+    "category": "sugar_crops",
+    "tnau_page": "https://agritech.tnau.ac.in/agriculture/agri_cropproduction_sugarcrops_sugarcane.html",
+    "duration_days": "300-360 days",
+    "optimal_temp_c": "28-36°C",
+    "water_requirement_mm": "1500-2200 mm",
+    "critical_stages": [
+      "Germination phase",
+      "Formative tillering",
+      "Grand growth elongation",
+      "Ripening"
+    ],
+    "npk_recommendation_kgha": {
+      "N": 280,
+      "P": 60,
+      "K": 120
+    },
+    "biostimulant_window": "Apply at 90 & 120 DAP to promote internode length and cane thickness.",
+    "common_diseases": [
+      "Red Rot",
+      "Smut",
+      "Wilt",
+      "Grassy Shoot"
+    ],
+    "common_pests": [
+      "Early Shoot Borer",
+      "Internode Borer",
+      "Pyrilla"
+    ],
+    "tnau_yield_potential_q_acre": "350.0 - 500.0 q/acre (canes)"
+  },
+  {
+    "crop_name": "Groundnut",
+    "botanical_name": "Arachis hypogaea L.",
+    "family": "Fabaceae",
+    "category": "oilseeds",
+    "tnau_page": "https://agritech.tnau.ac.in/agriculture/agri_cropproduction_oilseeds_groundnut.html",
+    "duration_days": "105-120 days",
+    "optimal_temp_c": "25-30°C",
+    "water_requirement_mm": "400-550 mm",
+    "critical_stages": [
+      "Pegging initiation",
+      "Pod formation",
+      "Seed development"
+    ],
+    "npk_recommendation_kgha": {
+      "N": 25,
+      "P": 50,
+      "K": 75,
+      "Gypsum": 400
+    },
+    "biostimulant_window": "Spray at peg penetration (40-45 DAS) to maximize pod filling and shell boldness.",
+    "common_diseases": [
+      "Tikka Leaf Spot",
+      "Rust",
+      "Collar Rot"
+    ],
+    "common_pests": [
+      "Leaf Miner",
+      "Red Hairy Caterpillar",
+      "Spodoptera"
+    ],
+    "tnau_yield_potential_q_acre": "10.0 - 15.0 q/acre"
+  },
+  {
+    "crop_name": "Maize",
+    "botanical_name": "Zea mays L.",
+    "family": "Poaceae",
+    "category": "cereals",
+    "tnau_page": "https://agritech.tnau.ac.in/agriculture/agri_cropproduction_cereals%20index%20new_maize.html",
+    "duration_days": "95-115 days",
+    "optimal_temp_c": "21-30°C",
+    "water_requirement_mm": "500-650 mm",
+    "critical_stages": [
+      "Knee high",
+      "Tasseling",
+      "Silking",
+      "Grain milking"
+    ],
+    "npk_recommendation_kgha": {
+      "N": 150,
+      "P": 75,
+      "K": 75,
+      "Zn": 25
+    },
+    "biostimulant_window": "Apply at silking to prevent pollen desiccation under extreme heat.",
+    "common_diseases": [
+      "Turcicum Leaf Blight",
+      "Maydis Leaf Blight",
+      "Banded Leaf and Sheath Blight"
+    ],
+    "common_pests": [
+      "Fall Armyworm",
+      "Stem Borer"
+    ],
+    "tnau_yield_potential_q_acre": "24.0 - 32.0 q/acre"
+  },
+  {
+    "crop_name": "Gram / Chickpea (Chana)",
+    "botanical_name": "Cicer arietinum L.",
+    "family": "Fabaceae",
+    "category": "pulses",
+    "tnau_page": "https://agritech.tnau.ac.in/agriculture/agri_cropproduction_pulses_bengalgram.html",
+    "duration_days": "95-110 days",
+    "optimal_temp_c": "18-28°C",
+    "water_requirement_mm": "250-350 mm",
+    "critical_stages": [
+      "Branching",
+      "Pod initiation"
+    ],
+    "npk_recommendation_kgha": {
+      "N": 20,
+      "P": 40,
+      "K": 20
+    },
+    "biostimulant_window": "Pre-flowering spray to stimulate branching and retain pods under winter dry spells.",
+    "common_diseases": [
+      "Fusarium Wilt",
+      "Ascochyta Blight",
+      "Dry Root Rot"
+    ],
+    "common_pests": [
+      "Gram Pod Borer (Helicoverpa armigera)"
+    ],
+    "tnau_yield_potential_q_acre": "8.0 - 12.0 q/acre"
+  },
+  {
+    "crop_name": "Tur / Pigeon Pea (Arhar)",
+    "botanical_name": "Cajanus cajan (L.) Millsp.",
+    "family": "Fabaceae",
+    "category": "pulses",
+    "tnau_page": "https://agritech.tnau.ac.in/agriculture/agri_cropproduction_pulses_redgram.html",
+    "duration_days": "160-190 days",
+    "optimal_temp_c": "24-32°C",
+    "water_requirement_mm": "600-800 mm",
+    "critical_stages": [
+      "Flowering",
+      "Pod development"
+    ],
+    "npk_recommendation_kgha": {
+      "N": 25,
+      "P": 50,
+      "K": 25
+    },
+    "biostimulant_window": "Foliar application at 50% flowering to arrest flower drop caused by overcast or high winds.",
+    "common_diseases": [
+      "Sterility Mosaic Virus",
+      "Phytophthora Blight",
+      "Fusarium Wilt"
+    ],
+    "common_pests": [
+      "Pod Borer Complex",
+      "Pod Fly"
+    ],
+    "tnau_yield_potential_q_acre": "7.0 - 11.0 q/acre"
+  },
+  {
+    "crop_name": "Mustard",
+    "botanical_name": "Brassica juncea (L.) Czern.",
+    "family": "Brassicaceae",
+    "category": "oilseeds",
+    "tnau_page": "https://agritech.tnau.ac.in/agriculture/agri_cropproduction_oilseeds_mustard.html",
+    "duration_days": "110-130 days",
+    "optimal_temp_c": "15-24°C",
+    "water_requirement_mm": "300-400 mm",
+    "critical_stages": [
+      "Rosette stage",
+      "Flowering",
+      "Siliqua formation"
+    ],
+    "npk_recommendation_kgha": {
+      "N": 80,
+      "P": 40,
+      "K": 40,
+      "S": 30
+    },
+    "biostimulant_window": "Apply at siliqua development to promote oil content and seed boldness.",
+    "common_diseases": [
+      "White Rust",
+      "Alternaria Blight",
+      "Downy Mildew"
+    ],
+    "common_pests": [
+      "Mustard Aphid"
+    ],
+    "tnau_yield_potential_q_acre": "7.0 - 10.0 q/acre"
+  },
+  {
+    "crop_name": "Tomato",
+    "botanical_name": "Solanum lycopersicum L.",
+    "family": "Solanaceae",
+    "category": "vegetables",
+    "tnau_page": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_tomato.html",
+    "duration_days": "120-140 days",
+    "optimal_temp_c": "21-28°C",
+    "water_requirement_mm": "500-700 mm",
+    "critical_stages": [
+      "Flowering",
+      "Fruit setting",
+      "Fruit expansion"
+    ],
+    "npk_recommendation_kgha": {
+      "N": 150,
+      "P": 100,
+      "K": 100,
+      "Ca": 20
+    },
+    "biostimulant_window": "Spray calcium-chelated biostimulants during fruit set to prevent blossom end rot.",
+    "common_diseases": [
+      "Early Blight",
+      "Late Blight",
+      "Tomato Leaf Curl Virus"
+    ],
+    "common_pests": [
+      "Fruit Borer",
+      "Whitefly",
+      "Leaf Miner"
+    ],
+    "tnau_yield_potential_q_acre": "120.0 - 180.0 q/acre (fruits)"
+  }
+]

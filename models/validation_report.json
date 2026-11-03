@@ -1,0 +1,46 @@
+{
+  "audit_timestamp": "2026-09-09T15:34:14.873808Z",
+  "records_received": 1600,
+  "records_valid": 1600,
+  "records_removed": 0,
+  "missing_percentage": 0.0,
+  "duplicate_count": 0,
+  "outlier_count": 0,
+  "experiment_count": 800,
+  "years_distribution": {
+    "2021": 244,
+    "2022": 322,
+    "2023": 390,
+    "2024": 418,
+    "2025": 226
+  },
+  "crops_distribution": {
+    "Mustard / Rapeseed": 158,
+    "Tur / Pigeon Pea (Arhar)": 154,
+    "Sugarcane": 148,
+    "Onion": 148,
+    "Wheat": 140,
+    "Tomato": 140,
+    "Chickpea (Gram / Chana)": 130,
+    "Soybean": 126,
+    "Groundnut (Peanut)": 124,
+    "Rice (Paddy)": 116,
+    "Maize": 114,
+    "Cotton": 102
+  },
+  "states_distribution": {
+    "Tamil Nadu": 244,
+    "Gujarat": 220,
+    "Madhya Pradesh": 210,
+    "Karnataka": 194,
+    "Uttar Pradesh": 186,
+    "Maharashtra": 184,
+    "Telangana": 182,
+    "Punjab": 180
+  },
+  "treatment_breakdown": {
+    "control_plots": 800,
+    "treated_plots": 800
+  },
+  "quality_status": "VALIDATED_PRODUCTION_QUALITY"
+}

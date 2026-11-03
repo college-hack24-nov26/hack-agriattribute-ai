@@ -1,0 +1,117 @@
+[
+  {
+    "id": "cereals",
+    "name": "Cereals",
+    "name_hi": "अनाज",
+    "name_mr": "तृणधान्ये",
+    "crops": [
+      "Rice",
+      "Wheat",
+      "Maize",
+      "Barley"
+    ],
+    "description": "Primary carbohydrate staples with high agronomic response to balanced N-P-K and biostimulant tillering promoters.",
+    "tnau_url": "https://agritech.tnau.ac.in/agriculture/agri_cropproduction_cereals%20index%20new_rice.html"
+  },
+  {
+    "id": "millets",
+    "name": "Millets (Nutri-Cereals)",
+    "name_hi": "मोटे अनाज / श्री अन्न",
+    "name_mr": "भरड धान्ये",
+    "crops": [
+      "Jowar",
+      "Bajra",
+      "Ragi"
+    ],
+    "description": "Climate-resilient, drought-tolerant C4 grasses requiring minimal irrigation and thriving in dryland semi-arid ecosystems.",
+    "tnau_url": "https://agritech.tnau.ac.in/agriculture/agri_cropproduction_cereals%20index%20new_sorghum.html"
+  },
+  {
+    "id": "pulses",
+    "name": "Pulses & Legumes",
+    "name_hi": "दलहन",
+    "name_mr": "कडधान्ये",
+    "crops": [
+      "Red Gram",
+      "Bengal Gram",
+      "Black Gram",
+      "Green Gram",
+      "Lentil"
+    ],
+    "description": "Atmospheric nitrogen-fixing grain legumes critical for restoring soil fertility and protein security.",
+    "tnau_url": "https://agritech.tnau.ac.in/agriculture/agri_cropproduction_pulses_redgram.html"
+  },
+  {
+    "id": "oilseeds",
+    "name": "Oilseeds",
+    "name_hi": "तिलहन",
+    "name_mr": "गळित धान्ये",
+    "crops": [
+      "Soybean",
+      "Groundnut",
+      "Mustard",
+      "Sesamum",
+      "Sunflower",
+      "Safflower"
+    ],
+    "description": "High-value commercial energy crops sensitive to moisture stress and responsive to sulphur and foliar biostimulants.",
+    "tnau_url": "https://agritech.tnau.ac.in/agriculture/agri_cropproduction_oilseeds_groundnut.html"
+  },
+  {
+    "id": "fibre_crops",
+    "name": "Fibre Crops",
+    "name_hi": "रेशा फसलें",
+    "name_mr": "कापूस व तंतू पिके",
+    "crops": [
+      "Cotton"
+    ],
+    "description": "Industrial cash crops requiring intensive boll-retention nutrition and sucking pest management.",
+    "tnau_url": "https://agritech.tnau.ac.in/agriculture/agri_cropproduction_fibres_cotton.html"
+  },
+  {
+    "id": "sugar_crops",
+    "name": "Sugar Crops",
+    "name_hi": "शर्करा फसलें",
+    "name_mr": "ऊस पीक",
+    "crops": [
+      "Sugarcane"
+    ],
+    "description": "Heavy biomass annual crops with substantial potassium, irrigation, and micronutrient demands.",
+    "tnau_url": "https://agritech.tnau.ac.in/agriculture/agri_cropproduction_sugarcrops_sugarcane.html"
+  },
+  {
+    "id": "vegetables",
+    "name": "Vegetables & Spices",
+    "name_hi": "सब्जियां",
+    "name_mr": "भाजीपाला पिके",
+    "crops": [
+      "Onion",
+      "Tomato",
+      "Potato"
+    ],
+    "description": "High-investment perishable horticulture vulnerable to foliar blights and post-harvest quality dockage.",
+    "tnau_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_onion.html"
+  },
+  {
+    "id": "stress_management",
+    "name": "Abiotic Stress Management",
+    "name_hi": "मौसम तनाव प्रबंधन",
+    "name_mr": "हवामान ताण व्यवस्थापन",
+    "crops": [
+      "All Crops"
+    ],
+    "description": "Drought, heat, flood, and salinity physiological remediation techniques using biostimulants and potassium silicate.",
+    "tnau_url": "https://agritech.tnau.ac.in/agriculture/agri_drought_management.html"
+  },
+  {
+    "id": "crop_protection",
+    "name": "Integrated Pest & Disease Management (IPM)",
+    "name_hi": "एकीकृत कीट व रोग प्रबंधन",
+    "name_mr": "एकात्मिक कीड व रोग व्यवस्थापन",
+    "crops": [
+      "All Crops"
+    ],
+    "description": "Bio-rational pest management, microbial antagonists (Trichoderma, Pseudomonas), and approved statutory CIBRC spray schedules.",
+    "tnau_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot.html"
+  }
+]

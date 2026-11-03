@@ -1,0 +1,100 @@
+[
+  {
+    "id": "TNAU_IMG_001",
+    "title": "Cereals Crop Diversity Overview",
+    "crop": "Cereals",
+    "type": "Crop Overview",
+    "image_url": "https://agritech.tnau.ac.in/agriculture/images/cereals1.png",
+    "local_rel_path": "assets/leaf_samples/rice_blast.jpg",
+    "source_page": "https://agritech.tnau.ac.in/agriculture/agri_cropproduction_cereals%20index%20new_rice.html",
+    "attribution": "Source: Tamil Nadu Agricultural University (TNAU) Agritech Portal (https://agritech.tnau.ac.in/)"
+  },
+  {
+    "id": "TNAU_IMG_002",
+    "title": "Rice Blast Symptoms on Foliage",
+    "crop": "Rice (Paddy)",
+    "disease": "Rice Blast",
+    "type": "Pathology Symptom",
+    "image_url": "https://agritech.tnau.ac.in/crop_protection/images/rice_blast.jpg",
+    "local_rel_path": "assets/leaf_samples/rice_blast.jpg",
+    "source_page": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop%20diseases_cereals_rice_biomarker_main.html",
+    "attribution": "Source: Tamil Nadu Agricultural University (TNAU) Agritech Portal (https://agritech.tnau.ac.in/)"
+  },
+  {
+    "id": "TNAU_IMG_003",
+    "title": "Cotton Bacterial Blight Lesions",
+    "crop": "Cotton",
+    "disease": "Bacterial Leaf Blight",
+    "type": "Pathology Symptom",
+    "image_url": "https://agritech.tnau.ac.in/crop_protection/images/cotton_blight.jpg",
+    "local_rel_path": "assets/leaf_samples/cotton_bacterial_blight.jpg",
+    "source_page": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_diseases_fibres_cotton.html",
+    "attribution": "Source: Tamil Nadu Agricultural University (TNAU) Agritech Portal (https://agritech.tnau.ac.in/)"
+  },
+  {
+    "id": "TNAU_IMG_004",
+    "title": "Soybean Rust Foliar Pustules",
+    "crop": "Soybean",
+    "disease": "Soybean Rust",
+    "type": "Pathology Symptom",
+    "image_url": "https://agritech.tnau.ac.in/crop_protection/images/soybean_rust.jpg",
+    "local_rel_path": "assets/leaf_samples/soybean_rust.jpg",
+    "source_page": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_diseases_oilseeds_soybean.html",
+    "attribution": "Source: Tamil Nadu Agricultural University (TNAU) Agritech Portal (https://agritech.tnau.ac.in/)"
+  },
+  {
+    "id": "TNAU_IMG_005",
+    "title": "Onion Purple Blotch Foliar Concentric Rings",
+    "crop": "Onion",
+    "disease": "Purple Blotch",
+    "type": "Pathology Symptom",
+    "image_url": "https://agritech.tnau.ac.in/crop_protection/images/onion_purple_blotch.jpg",
+    "local_rel_path": "assets/leaf_samples/onion_purple_blotch.jpg",
+    "source_page": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_diseases_horti_vegetables_onion.html",
+    "attribution": "Source: Tamil Nadu Agricultural University (TNAU) Agritech Portal (https://agritech.tnau.ac.in/)"
+  },
+  {
+    "id": "TNAU_IMG_006",
+    "title": "Groundnut Tikka Leaf Spot Halos",
+    "crop": "Groundnut",
+    "disease": "Tikka Leaf Spot",
+    "type": "Pathology Symptom",
+    "image_url": "https://agritech.tnau.ac.in/crop_protection/images/groundnut_tikka.jpg",
+    "local_rel_path": "assets/leaf_samples/groundnut_tikka.jpg",
+    "source_page": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_diseases_oilseeds_groundnut.html",
+    "attribution": "Source: Tamil Nadu Agricultural University (TNAU) Agritech Portal (https://agritech.tnau.ac.in/)"
+  },
+  {
+    "id": "TNAU_IMG_007",
+    "title": "Maize Turcicum Leaf Blight Lesions",
+    "crop": "Maize",
+    "disease": "Turcicum Leaf Blight",
+    "type": "Pathology Symptom",
+    "image_url": "https://agritech.tnau.ac.in/crop_protection/images/maize_blight.jpg",
+    "local_rel_path": "assets/leaf_samples/maize_leaf_blight.jpg",
+    "source_page": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_diseases_cereals_maize.html",
+    "attribution": "Source: Tamil Nadu Agricultural University (TNAU) Agritech Portal (https://agritech.tnau.ac.in/)"
+  },
+  {
+    "id": "TNAU_IMG_008",
+    "title": "Wheat Stripe Rust Linear Pustules",
+    "crop": "Wheat",
+    "disease": "Stripe Rust",
+    "type": "Pathology Symptom",
+    "image_url": "https://agritech.tnau.ac.in/crop_protection/images/wheat_rust.jpg",
+    "local_rel_path": "assets/leaf_samples/wheat_stripe_rust.jpg",
+    "source_page": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_diseases_cereals_wheat.html",
+    "attribution": "Source: Tamil Nadu Agricultural University (TNAU) Agritech Portal (https://agritech.tnau.ac.in/)"
+  },
+  {
+    "id": "TNAU_IMG_009",
+    "title": "Tomato Early Blight Target Board Spots",
+    "crop": "Tomato",
+    "disease": "Early Blight",
+    "type": "Pathology Symptom",
+    "image_url": "https://agritech.tnau.ac.in/crop_protection/images/tomato_early_blight.jpg",
+    "local_rel_path": "assets/leaf_samples/tomato_early_blight.jpg",
+    "source_page": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_diseases_horti_vegetables_tomato.html",
+    "attribution": "Source: Tamil Nadu Agricultural University (TNAU) Agritech Portal (https://agritech.tnau.ac.in/)"
+  }
+]
