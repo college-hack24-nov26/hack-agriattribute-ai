@@ -1,0 +1,6 @@
+# Optional: on-device IndicTrans2 translation (gated Hugging Face model; needs HF_TOKEN with access).
+# The app works without these: it translates with Gemini and the bundled data/i18n caches.
+-r requirements.txt
+torch>=2.0.0
+transformers>=4.30.0
+sentencepiece>=0.1.99

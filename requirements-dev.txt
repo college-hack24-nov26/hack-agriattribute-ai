@@ -1,0 +1,6 @@
+# Tests, linting and the offline training pipeline. Install: pip install -r requirements-dev.txt
+-r requirements.txt
+pytest>=8.0
+ruff>=0.6
+xgboost>=2.0.0        # benchmarked in pipeline/offline_training_pipeline.py
+pyarrow>=14.0         # parquet export in the training pipeline

@@ -1,0 +1,16 @@
+[theme]
+base = "light"
+primaryColor = "#059669"
+backgroundColor = "#f8fafc"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#0f172a"
+font = "sans serif"
+
+[global]
+# Closed tabs are not drawn, so services/ui_state.py restores their widget values; that is intended
+disableWidgetStateDuplicationWarning = true
+
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = false
