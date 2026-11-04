@@ -11,7 +11,16 @@ actually earned you per acre, and where to sell, in your own language.
 Team **HA097** · COEP Phaltan Hackathon 2K26 (PES) · Domain: AgriTech · Problem: *Yield Attribution and ROI prediction*
 Bhakti Kadam ([@Bhakti2709](https://github.com/Bhakti2709)) · Soham Kadu ([@soham0777](https://github.com/soham0777))
 
-![AgriAttribute AI: live weather scene for the farm's GPS location](docs/media/01_home_live_scene.png)
+![AgriAttribute AI walk-through: live farm scene, company needs, yield attribution, model card, ROI, soil, river watch and Marathi](docs/media/demo.gif)
+
+### Explore it in 2 minutes
+
+1. **Today** – the sky, wind and rain in the scene are the real weather at the farm's GPS point; one decision for today and the net ₹ per acre.
+2. **Yield & attributes** – yield with vs without the biological, the SHAP waterfall, and a model card that states its own accuracy per crop.
+3. **Impact & ROI** – raise the dose in Management and watch profit fall: extra product never adds yield, only cost.
+4. **Company needs** – sell a crop to a company in 3 taps, nearest and best-paying first.
+5. **River watch** – simulate a pollution event: an alert appears on every screen, in Marathi for the farmer and as a notice for the government.
+6. Switch the language to **मराठी** (or any of 8 Indian languages) – the whole interface changes in under a second.
 
 **Quick links:** [Application overview](docs/APP_OVERVIEW.md) · [Screens](#screens) ·
 [Sources and why we use them](docs/SOURCES_AND_USE_CASES.txt) · [Audit and fixes](docs/AUDIT_RESPONSE.md) ·
@@ -121,6 +130,12 @@ Tests and the model report:
 pip install -r requirements-dev.txt
 pytest -q
 python pipeline/evaluate_model.py
+```
+
+Check every external service in one go (weather, sensor stations, Gemini, Supabase, maps, radar, geocoding):
+
+```bash
+python pipeline/check_services.py
 ```
 
 Supabase tables: run `docs/supabase_schema.sql` and `docs/supabase_schema_v2.sql` once in the SQL editor.
