@@ -62,7 +62,7 @@ from services.management_engine import safe_float, safe_int
 
 # Centralized Localization Architecture
 from services.localization import (
-    t, t_crop, t_region, t_season, t_crop_desc, t_weather_desc, t_commodity
+    t, t_crop, t_region, t_crop_desc, t_weather_desc, t_commodity
 )
 
 from services import i18n
@@ -473,7 +473,6 @@ REGIONAL_CROP_SHARES = {
 @st.cache_resource
 def load_ml_pipeline():
     m_path = "models/model.pkl" if os.path.exists("models/model.pkl") else "model.pkl"
-    "models/shap_explainer.pkl" if os.path.exists("models/shap_explainer.pkl") else "shap_explainer.pkl"
     metrics_path = "models/model_metrics.json" if os.path.exists("models/model_metrics.json") else None
     version_path = "models/model_version.json" if os.path.exists("models/model_version.json") else None
     schema_path = "models/feature_schema.json" if os.path.exists("models/feature_schema.json") else None
@@ -877,8 +876,6 @@ def main():
 
     # Location & Region Context
     localized_reg = t_region(st.session_state.selected_region, lang)
-    st.session_state.get('farm_location_name', 'Pune')
-    st.session_state.get('live_gps_active', False)
 
 
 
@@ -997,19 +994,12 @@ def main():
 
     # ── Real-Time Calibrated Farm State (Data Driven — No Synthetic Sliders) ──
     reg_shc = pricing_and_soil_engine.get_regional_soil_health_card(region)
-    shc_params = reg_shc.get("parameters", {})
-    safe_float(shc_params.get("Nitrogen (N)", {}).get("val", 140.0), 140.0)
-    safe_float(shc_params.get("Phosphorus (P)", {}).get("val", 16.4), 16.4)
-    safe_float(shc_params.get("Potassium (K)", {}).get("val", 300.0), 300.0)
-    safe_float(shc_params.get("Organic Carbon (OC)", {}).get("val", 5.2), 5.2) / 10.0
-    safe_float(shc_params.get("Soil pH", {}).get("val", 7.2), 7.2)
 
     curr_temp = safe_float(ow_live.get("temp_c", 28.5), 28.5)
     heat_stress = 6 if curr_temp > 35 else (4 if curr_temp > 32 else 2)
     # Season inputs the model needs but no live feed measures: the crop's season normal, labelled as such
     _season = economics.season_inputs(field_context.get_crop_proxy(st.session_state.selected_crop), curr_temp)
     rainfall = _season["rainfall_mm"]
-    _season["gdd"]
     ndvi = _season["ndvi"]
 
     bio_toggle = True
@@ -1141,8 +1131,6 @@ def main():
         curr_tab_idx = 0
         st.session_state.active_tab_idx = 0
 
-    tab_labels[curr_tab_idx]
-    st.session_state.get('tab_nav_version', 0)
 
     # ── Live scene: sky, clouds, crops and river driven by the real weather and river status ──
     _rw_df0, _rw_an0, _rw_label0 = river_watch_ui.current_state()
@@ -1302,9 +1290,7 @@ def main():
             for c_idx, (c_name, c_info) in enumerate(cur_crops.items()):
                 is_selected = (c_name == st.session_state.selected_crop)
                 localized_crop_name = t_crop(c_name, lang)
-                t_season(c_info['season'], lang)
                 localized_crop_desc = t_crop_desc(c_info['desc'], lang)
-                t("acreage_share", lang, share=c_info['share'])
         
                 border_style = "2.5px solid #059669; background: #ecfdf5; box-shadow: 0 4px 14px rgba(5, 150, 105, 0.2);" if is_selected else "1px solid #e2e8f0; background: #ffffff;"
                 badge_html = f"<span style='background:#059669; color:white; font-size:0.82rem; font-weight:800; padding:3px 10px; border-radius:12px;'>★ {t('active_field_badge', lang)}</span>" if is_selected else ""
@@ -1777,7 +1763,7 @@ def main():
             with st.form("log_form_m"):
                 col_f1, col_f2 = st.columns(2)
                 with col_f1:
-                    st.text_input(t("mem_field_name", lang), value=f"{localized_active_crop} - Field #1")
+                    _ = st.text_input(t("mem_field_name", lang), value=f"{localized_active_crop} - Field #1")
                     log_product = st.selectbox(t("mem_product", lang), ["Syngenta Quantis", "Syngenta Isabion", "Syngenta CropBio+"])
                     log_dosage = st.number_input(t("mem_dosage", lang), value=safe_float(dosage, 1.0))
                 with col_f2:

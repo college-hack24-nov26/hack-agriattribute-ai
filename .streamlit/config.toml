@@ -10,6 +10,10 @@ font = "sans serif"
 # Closed tabs are not drawn, so services/ui_state.py restores their widget values; that is intended
 disableWidgetStateDuplicationWarning = true
 
+[runner]
+# Never print bare values on the page (a stray expression in app.py would otherwise show up as text)
+magicEnabled = false
+
 [server]
 headless = true
 enableCORS = false
