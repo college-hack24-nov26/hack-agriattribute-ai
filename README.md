@@ -26,7 +26,7 @@ Bhakti Kadam ([@Bhakti2709](https://github.com/Bhakti2709)) · Soham Kadu ([@soh
 [Sources and why we use them](docs/SOURCES_AND_USE_CASES.txt) · [Audit and fixes](docs/AUDIT_RESPONSE.md) ·
 [Deployment](docs/DEPLOYMENT.md)
 
-**Live demo:** not public yet; runs locally with `streamlit run app.py` (see [Deployment](docs/DEPLOYMENT.md)).
+**Live demo: <https://agriattribute-ha097.streamlit.app>** (Streamlit Community Cloud; the first visit after a quiet spell takes about a minute to wake up).
 
 > **Prior work.** This builds on our own prototype from Hack Core 2026 (Syngenta Biologicals × ANNAM.AI, PS-07).
 > [`docs/AUDIT_RESPONSE.md`](docs/AUDIT_RESPONSE.md) lists what was audited and changed.

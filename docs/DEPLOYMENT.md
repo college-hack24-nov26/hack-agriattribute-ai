@@ -1,8 +1,9 @@
 # Deploying AgriAttribute AI
 
-**Status (4 Nov 2026):** the current version runs locally (`streamlit run app.py`). The two older Streamlit Cloud
-links from Hack Core 2026 redirect to a Streamlit login page and serve the old code, so there is **no public demo
-of this version yet**.
+**Status (4 Nov 2026): live at <https://agriattribute-ha097.streamlit.app>** on Streamlit Community Cloud
+(Python 3.12). It deploys from a private copy in the team lead's account, because Streamlit has no access to the
+organisers' GitHub org; the code is identical to this repository. The two older Hack Core 2026 links are private and
+serve old code.
 
 **Deployment check (4 Nov 2026):** a clean install of `requirements.txt` in a fresh Python 3.13 environment resolved
 Streamlit 1.66.1, scikit-learn 1.9.1 and SHAP 0.54.1, and all 13 tabs opened with no errors **with no API keys set**
