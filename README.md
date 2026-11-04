@@ -1,10 +1,23 @@
 # AgriAttribute AI
 
+[![tests](https://github.com/college-hack24-nov26/hack-agriattribute-ai/actions/workflows/tests.yml/badge.svg)](https://github.com/college-hack24-nov26/hack-agriattribute-ai/actions/workflows/tests.yml)
+![Python](https://img.shields.io/badge/python-3.12%2B-3776AB)
+![Streamlit](https://img.shields.io/badge/streamlit-1.63-FF4B4B)
+![Languages](https://img.shields.io/badge/UI%20languages-9-059669)
+
 **Yield attribution and ROI prediction for Indian farmers.** Know why your yield moved, what a biological input
 actually earned you per acre, and where to sell, in your own language.
 
 Team **HA097** · COEP Phaltan Hackathon 2K26 (PES) · Domain: AgriTech · Problem: *Yield Attribution and ROI prediction*
 Bhakti Kadam ([@Bhakti2709](https://github.com/Bhakti2709)) · Soham Kadu ([@soham0777](https://github.com/soham0777))
+
+![AgriAttribute AI: live weather scene for the farm's GPS location](docs/media/01_home_live_scene.png)
+
+**Quick links:** [Application overview](docs/APP_OVERVIEW.md) · [Screens](#screens) ·
+[Sources and why we use them](docs/SOURCES_AND_USE_CASES.txt) · [Audit and fixes](docs/AUDIT_RESPONSE.md) ·
+[Deployment](docs/DEPLOYMENT.md)
+
+**Live demo:** not public yet; runs locally with `streamlit run app.py` (see [Deployment](docs/DEPLOYMENT.md)).
 
 > **Prior work.** This builds on our own prototype from Hack Core 2026 (Syngenta Biologicals × ANNAM.AI, PS-07).
 > [`docs/AUDIT_RESPONSE.md`](docs/AUDIT_RESPONSE.md) lists what was audited and changed.
@@ -66,6 +79,20 @@ lift shows as a loss (never clipped to zero), fertiliser in kg/ha is priced per 
 
 Every source, how it is integrated and how far it is validated: Today tab → *Full source registry*
 (`services/sources.py`).
+
+## Screens
+
+| Yield attribution (SHAP + with/without lift) | Model card (per-crop accuracy, stated limits) |
+|---|---|
+| ![Yield tab](docs/media/03_yield_attribution.png) | ![Model card](docs/media/10_model_card.png) |
+| **Impact & ROI (five scenarios)** | **Soil Health Card** |
+| ![Impact and ROI](docs/media/04_impact_roi.png) | ![Soil](docs/media/05_soil_health.png) |
+| **Company needs: sell in 3 taps** | **Farm waste market** |
+| ![Company needs](docs/media/06_company_needs.png) | ![Farm waste](docs/media/07_farm_waste_market.png) |
+| **River watch (AquaSentinel)** | **Whole interface in Marathi** |
+| ![River watch](docs/media/08_river_watch.png) | ![Marathi](docs/media/11_marathi.png) |
+
+Architecture diagram and request flow: [docs/APP_OVERVIEW.md](docs/APP_OVERVIEW.md#4-architecture).
 
 ## Speed
 
