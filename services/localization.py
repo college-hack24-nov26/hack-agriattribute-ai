@@ -358,7 +358,7 @@ _NEW_TASK_STRINGS = {
         'cost_scen_matrix': '⚖️ 5-Scenario Farm Economics Matrix (My Farm Baseline)',
         'impact_exp_yield': 'Expected Harvest Yield',
         'impact_bio_lift': 'Est. Biological Lift',
-        'impact_live_roi': 'LIVE ROI',
+        'impact_live_roi': 'MODEL ESTIMATE',
         'impact_95_band': 'Expected 95% Band',
         'impact_net_return': 'Net Farmer Return',
         'impact_yield_upside': 'Yield Upside',

@@ -2021,7 +2021,7 @@ def main():
                     f'</span>'
                     f'</div>'
                     f'<div style="display: flex; align-items: center; gap: 5px; background: #ecfdf5; border: 1.5px solid #86efac; padding: 4px 12px; border-radius: 14px;">'
-                    f'<span style="font-size: 0.85rem; font-weight: 800; color: #047857 !important;">LIVE ROI</span>'
+                    f'<span style="font-size: 0.85rem; font-weight: 800; color: #047857 !important;">MODEL ESTIMATE</span>'
                     f'</div>'
                     f'</div>'
                     f'<div style="margin: 4px 0 14px 0; display: flex; align-items: baseline; justify-content: flex-start; gap: 8px;">'
@@ -2075,11 +2075,13 @@ def main():
                     })
                 df_scen_display = pd.DataFrame(scen_rows)
                 st.dataframe(df_scen_display, width="stretch", hide_index=True)
+                st.caption("Rows with the same numbers mean the model sees no extra yield from that change for this crop "
+                           "and soil, so it is not worth paying for. Lift is measured against scenario 2 (no biological).")
 
             # WhatsApp Harvest Report Share
             today_str = datetime.now().strftime("%d %b %Y")
             wa_report = (
-                f"AgriAttribute AI - Verified Harvest Report\n"
+                f"AgriAttribute AI - Harvest & ROI Estimate\n"
                 f"Powered by AgriAttribute AI\n\n"
                 f"Crop: {localized_active_crop}\n"
                 f"Region: {localized_reg}\n"
@@ -2095,7 +2097,7 @@ def main():
             st.markdown(f"""
         <div style="background: linear-gradient(135deg, #25D366 0%, #128C7E 100%); border-radius: 14px; padding: 2px; box-shadow: 0 4px 18px rgba(37,211,102,0.35); margin-top: 14px;">
             <a href="https://wa.me/?text={encoded_wa}" target="_blank" style="display: flex; align-items: center; justify-content: center; gap: 12px; text-decoration: none; padding: 13px 20px; border-radius: 12px; background: linear-gradient(135deg, #25D366 0%, #128C7E 100%); color: white; font-weight: 800;">
-                📲 Share Verified Harvest & Mandi Executive Report via WhatsApp
+                📲 Share Harvest & Mandi Report via WhatsApp
             </a>
         </div>
         """, unsafe_allow_html=True)
