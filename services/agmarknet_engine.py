@@ -229,7 +229,7 @@ def get_mandi_intelligence_for_crop(crop_name: str, has_biological: bool = True)
     else:
         delta = 0.0
         delta_pct = 0.0
-        market_verdict = f"🥕 PERISHABLE VEGETABLE (Free Mandi Price)"
+        market_verdict = "🥕 PERISHABLE VEGETABLE (Free Mandi Price)"
         action_advice = "Daily spot market driven by terminal mandi arrival volume."
 
     # 3-Day Momentum Trend
@@ -239,7 +239,7 @@ def get_mandi_intelligence_for_crop(crop_name: str, has_biological: bool = True)
     elif price_change_3d < 0:
         momentum_tag = f"📉 Softening (-₹{abs(price_change_3d)}/q in 72h)"
     else:
-        momentum_tag = f"➡️ Stable (Flat across 72h)"
+        momentum_tag = "➡️ Stable (Flat across 72h)"
 
     return {
         "matched": True,

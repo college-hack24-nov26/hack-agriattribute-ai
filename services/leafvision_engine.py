@@ -325,7 +325,7 @@ class LeafVisionFoundationModel:
         exg = 2.0 * g - r - b
         mean_exg = float(np.mean(exg))
         greenness = float(np.mean(g) / (np.mean(r) + np.mean(b) + 1e-5))
-        redness = float(np.mean(r))
+        float(np.mean(r))
         
         # Check filename hints first
         fn_low = filename.lower() if filename else ""
@@ -524,7 +524,7 @@ class LeafVisionFoundationModel:
             zn_val = soil_data.get("zn", 0.85)
             b_val = soil_data.get("b", 0.65)
             ph_val = soil_data.get("ph", 6.8)
-            oc_val = soil_data.get("oc", 7.5)
+            soil_data.get("oc", 7.5)
             
             if n_val < 280.0:
                 if chlor_pct >= 3.0:
@@ -811,7 +811,7 @@ def render_unified_foliar_cockpit_html(res: dict) -> str:
             f"</div>"
         )
         
-    model_engine = res.get('model_engine', 'Rule-based colour & lesion analyser (no trained classifier)')
+    res.get('model_engine', 'Rule-based colour & lesion analyser (no trained classifier)')
     uncertainty_state = res.get('uncertainty_state', 'Rule-based screening (score is not a probability)')
     statutory_notice = res.get('statutory_notice', '⚠️ Preliminary AI screening — verify with an accredited agronomist or local Krishi Vigyan Kendra (KVK) expert before applying chemical treatments.')
     tnau_ref = res.get('tnau_reference')

@@ -773,9 +773,9 @@ def render_disease_risk_card(dis_risk: float, heat_stress: int, rainfall: float,
         )
     else:
         rec_html = (
-            f"<div style='background:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:8px 10px; margin-top:10px; font-size:0.78rem; color:#166534;'>"
-            f"<strong>🛡️ Preventive Biocontrol Shield:</strong> Crop canopy is healthy with optimal chlorophyll. Maintain cellular wall strength with protective biostimulant maintenance."
-            f"</div>"
+            "<div style='background:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:8px 10px; margin-top:10px; font-size:0.78rem; color:#166534;'>"
+            "<strong>🛡️ Preventive Biocontrol Shield:</strong> Crop canopy is healthy with optimal chlorophyll. Maintain cellular wall strength with protective biostimulant maintenance."
+            "</div>"
         )
         
     html = (
@@ -831,7 +831,7 @@ def render_smart_npk_card(crop: str, n_curr: float, p_curr: float, k_curr: float
         n_fill = "#10b981"
         n_pct = 100
     else:
-        n_badge = f"<span style='color:#2563eb; font-size:0.68rem; font-weight:800; background:#eff6ff; padding:1px 6px; border-radius:4px;'>High Surplus</span>"
+        n_badge = "<span style='color:#2563eb; font-size:0.68rem; font-weight:800; background:#eff6ff; padding:1px 6px; border-radius:4px;'>High Surplus</span>"
         n_fill = "#2563eb"
         n_pct = 100
     n_target_lbl = "Target: 280–560"
@@ -847,7 +847,7 @@ def render_smart_npk_card(crop: str, n_curr: float, p_curr: float, k_curr: float
         p_fill = "#10b981"
         p_pct = 100
     else:
-        p_badge = f"<span style='color:#2563eb; font-size:0.68rem; font-weight:800; background:#eff6ff; padding:1px 6px; border-radius:4px;'>High Surplus</span>"
+        p_badge = "<span style='color:#2563eb; font-size:0.68rem; font-weight:800; background:#eff6ff; padding:1px 6px; border-radius:4px;'>High Surplus</span>"
         p_fill = "#2563eb"
         p_pct = 100
     p_target_lbl = "Target: 23–56"
@@ -863,7 +863,7 @@ def render_smart_npk_card(crop: str, n_curr: float, p_curr: float, k_curr: float
         k_fill = "#10b981"
         k_pct = 100
     else:
-        k_badge = f"<span style='color:#10b981; font-size:0.68rem; font-weight:800; background:#f0fdf4; padding:1px 6px; border-radius:4px;'>Optimal (335)</span>"
+        k_badge = "<span style='color:#10b981; font-size:0.68rem; font-weight:800; background:#f0fdf4; padding:1px 6px; border-radius:4px;'>Optimal (335)</span>"
         k_fill = "#10b981"
         k_pct = 100
     k_target_lbl = "Target: 145–336"
@@ -934,38 +934,38 @@ def get_human_centric_agronomy_advisory(crop: str, heat_stress: int, temp: float
         }
     elif "soybean" in crop_lower:
         physio = {
-            "en": f"🌿 <b>Pod Setting & Grain Filling:</b> Buffers sudden thermal stress during flowering and pod development, preventing pod abortion and boosting grain test-weight and oil content.",
-            "hi": f"🌿 <b>फूल व फली का भराव:</b> फूल आने और फली बनते समय गर्मी के तनाव को रोककर फलियों का गिरना रोकता है और दानों में तेल व वजन बढ़ाता है।",
-            "mr": f"🌿 <b>शेंगा भरणे व वजन वाढ:</b> फुलोऱ्याच्या काळात उष्णतेचा ताण सहन करण्याची ताकद देऊन शेंगांची गळ थांबवते आणि दाण्यांचे वजन वाढवते.",
-            "te": f"🌿 <b>సోయాబీన్ కాయల నాణ్యత:</b> పూత రాలకుండా కాయల్లో గింజలు లావుగా పెరిగి నూనె శాతం పెరిగేలా చేస్తుంది."
+            "en": "🌿 <b>Pod Setting & Grain Filling:</b> Buffers sudden thermal stress during flowering and pod development, preventing pod abortion and boosting grain test-weight and oil content.",
+            "hi": "🌿 <b>फूल व फली का भराव:</b> फूल आने और फली बनते समय गर्मी के तनाव को रोककर फलियों का गिरना रोकता है और दानों में तेल व वजन बढ़ाता है।",
+            "mr": "🌿 <b>शेंगा भरणे व वजन वाढ:</b> फुलोऱ्याच्या काळात उष्णतेचा ताण सहन करण्याची ताकद देऊन शेंगांची गळ थांबवते आणि दाण्यांचे वजन वाढवते.",
+            "te": "🌿 <b>సోయాబీన్ కాయల నాణ్యత:</b> పూత రాలకుండా కాయల్లో గింజలు లావుగా పెరిగి నూనె శాతం పెరిగేలా చేస్తుంది."
         }
     elif "rice" in crop_lower or "paddy" in crop_lower:
         physio = {
-            "en": f"🌾 <b>Panicle Health & Tillering:</b> Protects spikelet fertility against midday heat, ensuring complete grain filling with lower chaff and higher head rice recovery.",
-            "hi": f"🌾 <b>बाली व कल्ले विकास:</b> बालियां निकलते समय गर्मी से दानों का खोखलापन रोकता है और भारी, चमकदार व भरा हुआ धान बनाता है।",
-            "mr": f"🌾 <b>ओंब्या भरणे व फुटवे:</b> ओंब्या भरण्याच्या काळात दाणे पोचट न होता चमकदार व भरदार भाताचे उत्पादन वाढवते.",
-            "te": f"🌾 <b>వరి కంకి ఎదుగుదల:</b> వరి కంకిలో గింజలు తాలు పోకుండా నిండుగా, బరువుగా అయ్యేలా చేస్తుంది."
+            "en": "🌾 <b>Panicle Health & Tillering:</b> Protects spikelet fertility against midday heat, ensuring complete grain filling with lower chaff and higher head rice recovery.",
+            "hi": "🌾 <b>बाली व कल्ले विकास:</b> बालियां निकलते समय गर्मी से दानों का खोखलापन रोकता है और भारी, चमकदार व भरा हुआ धान बनाता है।",
+            "mr": "🌾 <b>ओंब्या भरणे व फुटवे:</b> ओंब्या भरण्याच्या काळात दाणे पोचट न होता चमकदार व भरदार भाताचे उत्पादन वाढवते.",
+            "te": "🌾 <b>వరి కంకి ఎదుగుదల:</b> వరి కంకిలో గింజలు తాలు పోకుండా నిండుగా, బరువుగా అయ్యేలా చేస్తుంది."
         }
     elif "wheat" in crop_lower:
         physio = {
-            "en": f"🌾 <b>Terminal Heat Defense & Flag Leaf Stay-Green:</b> Extends flag leaf photosynthesis during spring heat spikes, preventing shriveled grains and maximizing 1,000-grain weight.",
-            "hi": f"🌾 <b>झंडा पत्ती सुरक्षा व दाना भराव:</b> पकने के समय अचानक बढ़ी गर्मी में झंडा पत्ती को हरी रखता है, जिससे दाना सिकुड़ता नहीं और मोटा बनता है।",
-            "mr": f"🌾 <b>दाणे भरणे व वजन:</b> कापणीच्या वेळच्या उष्णतेमुळे गहू बारीक न पडता टपोरा, वजनदार व चमकदार होतो.",
-            "te": f"🌾 <b>గోధుమ గింజల బరువు:</b> వేడి తీవ్రత వలన గింజలు ముడుచుకుపోకుండా లావుగా ఉండేలా తోడ్పడుతుంది."
+            "en": "🌾 <b>Terminal Heat Defense & Flag Leaf Stay-Green:</b> Extends flag leaf photosynthesis during spring heat spikes, preventing shriveled grains and maximizing 1,000-grain weight.",
+            "hi": "🌾 <b>झंडा पत्ती सुरक्षा व दाना भराव:</b> पकने के समय अचानक बढ़ी गर्मी में झंडा पत्ती को हरी रखता है, जिससे दाना सिकुड़ता नहीं और मोटा बनता है।",
+            "mr": "🌾 <b>दाणे भरणे व वजन:</b> कापणीच्या वेळच्या उष्णतेमुळे गहू बारीक न पडता टपोरा, वजनदार व चमकदार होतो.",
+            "te": "🌾 <b>గోధుమ గింజల బరువు:</b> వేడి తీవ్రత వలన గింజలు ముడుచుకుపోకుండా లావుగా ఉండేలా తోడ్పడుతుంది."
         }
     elif "sugarcane" in crop_lower:
         physio = {
-            "en": f"🎋 <b>Internode Elongation & Sucrose Brix:</b> Maintains vascular moisture through hot spells, promoting rapid cane height, internode thickness, and higher sugar recovery.",
-            "hi": f"🎋 <b>पोरी की लंबाई व मिठास:</b> गर्मी में गन्ने के तने में रस सूखने से बचाता है, गन्ने की मोटाई व ऊंचाई बढ़ाता है।",
-            "mr": f"🎋 <b>कांडीची लांबी व साखर उतारा:</b> उन्हाळ्यात उसाची वाढ खुंटू न देता कांड्यांची लांबी व रसातील साखरेचे प्रमाण वाढवते.",
-            "te": f"🎋 <b>చెరకు పెరుగుదల & తీపి:</b> చెరకు కణుపుల పొడవు పెంచి బరువు మరియు రస నాణ్యతను పెంచుతుంది."
+            "en": "🎋 <b>Internode Elongation & Sucrose Brix:</b> Maintains vascular moisture through hot spells, promoting rapid cane height, internode thickness, and higher sugar recovery.",
+            "hi": "🎋 <b>पोरी की लंबाई व मिठास:</b> गर्मी में गन्ने के तने में रस सूखने से बचाता है, गन्ने की मोटाई व ऊंचाई बढ़ाता है।",
+            "mr": "🎋 <b>कांडीची लांबी व साखर उतारा:</b> उन्हाळ्यात उसाची वाढ खुंटू न देता कांड्यांची लांबी व रसातील साखरेचे प्रमाण वाढवते.",
+            "te": "🎋 <b>చెరకు పెరుగుదల & తీపి:</b> చెరకు కణుపుల పొడవు పెంచి బరువు మరియు రస నాణ్యతను పెంచుతుంది."
         }
     else:
         physio = {
             "en": f"🌱 <b>Cell Wall Strength & Foliar Uptake:</b> Buffers physiological stress under {heat_stress} days of high temperatures, keeping vascular bundles active for optimal nutrient absorption.",
             "hi": f"🌱 <b>कोशिका मजबूती व पोषक तत्व अवशोषण:</b> {heat_stress} दिनों की गर्मी के तनाव को कम करके पौधे को स्वस्थ व हरा-भरा बनाए रखता है।",
-            "mr": f"🌱 <b>पेशी मजबूती व अन्नद्रव्य शोषण:</b> उष्णतेचा ताण कमी करून पिकाची रोगप्रतिकारशक्ती आणि वाढ टिकवून ठेवते.",
-            "te": f"🌱 <b>పంట ఎదుగుదల & పోషకాల గ్రహణం:</b> వేడి తీవ్రతను తగ్గించి మొక్కకు బలం చేకూరుస్తుంది."
+            "mr": "🌱 <b>पेशी मजबूती व अन्नद्रव्य शोषण:</b> उष्णतेचा ताण कमी करून पिकाची रोगप्रतिकारशक्ती आणि वाढ टिकवून ठेवते.",
+            "te": "🌱 <b>పంట ఎదుగుదల & పోషకాల గ్రహణం:</b> వేడి తీవ్రతను తగ్గించి మొక్కకు బలం చేకూరుస్తుంది."
         }
         
     # 2. Weather & Spray Safety Humanized
@@ -1024,8 +1024,8 @@ def render_soil_health_card_tab(region: str = None, crop: str = None, farm_lat: 
     shc = get_regional_soil_health_card(reg_name, lat=lat_val, lon=lon_val, location_name=loc_name)
     params = shc.get("parameters", {})
 
-    title_lbl = t('soil_card_main_title', lang)
-    badge_lbl = t('soil_card_govt_badge', lang)
+    t('soil_card_main_title', lang)
+    t('soil_card_govt_badge', lang)
     heading_lbl = t('soil_gauges_heading', lang)
     caption_lbl = t('soil_gauges_caption', lang)
     # Extract nutrient values safely
@@ -1043,7 +1043,7 @@ def render_soil_health_card_tab(region: str = None, crop: str = None, farm_lat: 
     eval_n = soil_reference_resolver.evaluate_soil_status("Nitrogen (N)", n_val, crop=crop_name, state=reg_name)
     eval_p = soil_reference_resolver.evaluate_soil_status("Phosphorus (P)", p_val, crop=crop_name, state=reg_name)
     eval_k = soil_reference_resolver.evaluate_soil_status("Potassium (K)", k_val, crop=crop_name, state=reg_name)
-    eval_zn = soil_reference_resolver.evaluate_soil_status("Zinc (Zn)", zn_val, crop=crop_name, state=reg_name)
+    soil_reference_resolver.evaluate_soil_status("Zinc (Zn)", zn_val, crop=crop_name, state=reg_name)
     fert_rec = soil_reference_resolver.get_fertilizer_recommendation(crop_name, {"N": n_val, "P": p_val, "K": k_val}, reg_name)
 
     # Render Crop-Aware Resolver Header Card (Clean HTML Concatenation)

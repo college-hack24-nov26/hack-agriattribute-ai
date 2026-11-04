@@ -454,8 +454,7 @@ def render_cost_of_cultivation_tab(field_ctx: Any, model: Any, artifacts: Any, l
         return
 
     # Yield conversion based on unit mode
-    yield_display = pred_yield_val if unit_key == "acre" else (pred_yield_val * HA_TO_ACRE)
-    yield_unit_str = "qtl / acre" if unit_key == "acre" else "qtl / hectare"
+    pred_yield_val if unit_key == "acre" else (pred_yield_val * HA_TO_ACRE)
 
     # Pre-fill session state for farmer inputs if not set
     state_key_prefix = f"my_farm_cost_{crop_name}_{cacp_season}_{unit_key}"
@@ -561,13 +560,13 @@ def render_cost_of_cultivation_tab(field_ctx: Any, model: Any, artifacts: Any, l
     # Normalized calculations on per-acre basis
     cost_per_acre = farmer_concepts['cost_c2'] if unit_key == "acre" else (farmer_concepts['cost_c2'] / HA_TO_ACRE)
     cost_per_ha = farmer_concepts['cost_c2'] if unit_key == "ha" else (farmer_concepts['cost_c2'] * HA_TO_ACRE)
-    bench_cost_acre = bench_concepts['cost_c2'] if unit_key == "acre" else (bench_concepts['cost_c2'] / HA_TO_ACRE)
+    bench_concepts['cost_c2'] if unit_key == "acre" else (bench_concepts['cost_c2'] / HA_TO_ACRE)
     
     total_farm_cost_all_acres = cost_per_acre * farm_acres
 
     # Revenue & Returns calculations
     gross_revenue_acre = pred_yield_val * sel_price
-    gross_return_acre = gross_revenue_acre - (farmer_concepts['cost_a2_fl'] if unit_key == "acre" else farmer_concepts['cost_a2_fl'] / HA_TO_ACRE)
+    gross_revenue_acre - (farmer_concepts['cost_a2_fl'] if unit_key == "acre" else farmer_concepts['cost_a2_fl'] / HA_TO_ACRE)
     net_return_acre = gross_revenue_acre - cost_per_acre
 
     # Biological Incremental Value Add

@@ -846,7 +846,6 @@ def render_management_tab_ui(
     6. Integrated Farm Memory & Supabase Ledger
     7. Expandable Technical Audit for Judges (Normalized Variables, Causal Graph Mapping)
     """
-    t = t_func if t_func is not None else (lambda k, l, **kwargs: k)
     
     crop_name = getattr(field_ctx, 'crop', 'Soybean')
     region_name = getattr(field_ctx, 'region', 'Maharashtra & Vidarbha (Deccan)')

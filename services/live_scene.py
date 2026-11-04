@@ -12,7 +12,7 @@ assets/theme.css (the .ls-* classes); the motion respects prefers-reduced-motion
 import html as html_mod
 import math
 from datetime import datetime
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Tuple
 
 _RIVER = {  # status -> (colour 1, colour 2, label)
     "NORMAL": ("#38bdf8", "#0ea5e9", "River normal"),

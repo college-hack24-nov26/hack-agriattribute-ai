@@ -15,7 +15,7 @@ Both panels are fragments: a tap re-runs only the panel, not the whole app.
 
 import html as html_mod
 import urllib.parse
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict
 
 import streamlit as st
 

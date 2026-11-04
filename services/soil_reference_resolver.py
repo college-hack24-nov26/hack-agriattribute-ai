@@ -162,7 +162,7 @@ def get_parameter_reference(parameter: str, crop: str, state: str = "Maharashtra
     profile = get_crop_profile(crop_key, state, soil_context)
     
     p_name = str(parameter).strip()
-    is_official = any(k.lower() in p_name.lower() for k in OFFICIAL_SHC_12_PARAMS.keys())
+    any(k.lower() in p_name.lower() for k in OFFICIAL_SHC_12_PARAMS.keys())
     
     # 1. Macro Nutrients: N, P, K
     if "nitrogen" in p_name.lower() or " n " in f" {p_name.lower()} " or p_name.endswith("(N)"):
@@ -383,7 +383,7 @@ def evaluate_soil_status(parameter: str, value: float, reference: Optional[Dict[
             status = "Deficient (Low)"
             gap_val = 280.0 - val
             gap_str = f"Deficient by {gap_val:.0f} kg/ha N"
-            action = f"Apply 100–120 kg/ha N in split doses + Syngenta Quantis/Isabion foliar biostimulant to boost nitrogen uptake efficiency by 38%."
+            action = "Apply 100–120 kg/ha N in split doses + Syngenta Quantis/Isabion foliar biostimulant to boost nitrogen uptake efficiency by 38%."
         elif val <= 560.0:
             status = "Medium (Adequate)"
             gap_val = 0.0
@@ -400,7 +400,7 @@ def evaluate_soil_status(parameter: str, value: float, reference: Optional[Dict[
             status = "Deficient (Low)"
             gap_val = 11.0 - val
             gap_str = f"Deficient by {gap_val:.1f} kg/ha P"
-            action = f"Apply 50–60 kg/ha P₂O₅ (Single Super Phosphate / DAP basal) at sowing."
+            action = "Apply 50–60 kg/ha P₂O₅ (Single Super Phosphate / DAP basal) at sowing."
         elif val <= 25.0:
             status = "Medium (Adequate)"
             gap_str = "Sufficient P reserve"

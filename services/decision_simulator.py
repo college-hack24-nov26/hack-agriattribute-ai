@@ -242,8 +242,8 @@ def evaluate_best_conditions(field_ctx: FieldContext) -> Dict[str, Any]:
         suitability_verdict = "MARGINAL / DELAY RECOMMENDED"
         action_headline = "DELAY APPLICATION UNTIL CONDITIONS IMPROVE"
         action_summary = (
-            f"Severe environmental stress (moisture deficit or high wind) will dampen biological efficacy. "
-            f"Provide light irrigation and wait for a favorable spray window before investing input capital."
+            "Severe environmental stress (moisture deficit or high wind) will dampen biological efficacy. "
+            "Provide light irrigation and wait for a favorable spray window before investing input capital."
         )
 
     return {

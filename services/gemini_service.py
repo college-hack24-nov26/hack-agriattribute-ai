@@ -376,7 +376,6 @@ def ask_gemini_multimodal(
             "thinkingConfig": {"thinkingBudget": 0}
         }
     }
-    headers = {"Content-Type": "application/json"}
 
     api_key = _get_gemini_key()
     if api_key:
@@ -558,7 +557,7 @@ def render_gemini_chat_interface(
     ow = ow_live or {}
     mandi = mandi_info or {}
     
-    st.markdown(f"""
+    st.markdown("""
     <div style="background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 100%); border: 1.5px solid #a7f3d0; border-radius: 16px; padding: 20px 24px; margin-bottom: 20px; box-shadow: 0 4px 16px rgba(16,185,129,0.08);">
         <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
             <div style="display: flex; align-items: center; gap: 12px;">

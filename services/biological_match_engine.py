@@ -78,8 +78,8 @@ def evaluate_product_match(
         wind_kmh = safe_float(ow_live.get('wind_speed_kmh', wind_kmh), wind_kmh)
         rain_prob = safe_int(ow_live.get('rain_prob_pct', 10), 10)
         
-    soil_ph = safe_float(getattr(field_ctx, 'ph', 7.2), 7.2)
-    soc = safe_float(getattr(field_ctx, 'soc', 0.52), 0.52)
+    safe_float(getattr(field_ctx, 'ph', 7.2), 7.2)
+    safe_float(getattr(field_ctx, 'soc', 0.52), 0.52)
 
     reasons = []
     score = 0
@@ -142,7 +142,6 @@ def evaluate_product_match(
     stress_fit_reason = ""
     is_high_heat = (temp_c > 32.0 or heat_stress_days >= 2)
     is_drought = (getattr(field_ctx, 'irrigation_type', '') == 'Rainfed' or (getattr(field_ctx, 'mcii_soil_moisture_pct', 40.0) < 30.0))
-    is_high_ph = (soil_ph > 7.8 or soil_ph < 6.0)
     
     if is_high_heat and any("heat" in ts.lower() or "thermal" in ts.lower() or "drought" in ts.lower() for ts in product.target_stress):
         stress_fit = True
@@ -153,7 +152,7 @@ def evaluate_product_match(
         stress_fit = True
         score += 20
         stress_fit_reason = "Water Use Efficiency (WUE) active osmoregulation."
-        reasons.append(f"💧 <b>Moisture Deficit Fit:</b> Water stress mitigation active. Formulated to preserve cellular turgor under moisture deficit.")
+        reasons.append("💧 <b>Moisture Deficit Fit:</b> Water stress mitigation active. Formulated to preserve cellular turgor under moisture deficit.")
     elif any("nutrient" in ts.lower() or "nitrogen" in ts.lower() or "phosphorus" in ts.lower() or "potassium" in ts.lower() or "zinc" in ts.lower() for ts in product.target_stress):
         stress_fit = True
         score += 18
@@ -516,7 +515,7 @@ def _render_detailed_product_card(match_res: ProductMatchResult, lang: str, t: A
             st.markdown(f"**Official Reference URL:** [{p.source_url}]({p.source_url})")
 
         is_selected = st.session_state.get("selected_bio_product") == p.product_name
-        btn_label = f"✅ Active Field Biological" if is_selected else f"🎯 Apply {p.product_name} to Field Context"
+        btn_label = "✅ Active Field Biological" if is_selected else f"🎯 Apply {p.product_name} to Field Context"
         if st.button(btn_label, key=f"btn_pick_bio_{abs(hash(p.product_name))}", type="primary" if is_selected else "secondary", width="stretch"):
             st.session_state["selected_bio_product"] = p.product_name
             st.session_state["s_dosage"] = safe_float(model_dose_l_acre(p), 1.0)

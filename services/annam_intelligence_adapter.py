@@ -76,7 +76,7 @@ def compute_derived_signals(station_observation: Dict[str, Any], target_crop: st
     t = station_observation.get("temperature")
     h = station_observation.get("relative_humidity")
     w = station_observation.get("wind_speed")
-    p = station_observation.get("pressure")
+    station_observation.get("pressure")
     r_daily = station_observation.get("rainfall_daily") or 0.0
     r_hour = station_observation.get("rainfall_hourly") or 0.0
     soil_m = station_observation.get("soil_moisture")
